@@ -7,6 +7,9 @@ apt-get dist-upgrade -y
 #Installation d'utilitaire permettant de surveiller les packets vulnerables
 apt-get install apt-listbugs apt-listchanges debian-goodies debsecan debsums
 
+#Installation des packet de base
+apt-get install htop openssh-server -y
+
 #Bloquage Reseau ip v4
 echo 0 > /proc/sys/net/ipv4/conf/all/accept_redirects
 echo 1 > /proc/sys/net/ipv4/conf/all/log_martians

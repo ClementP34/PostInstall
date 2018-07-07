@@ -40,8 +40,7 @@ echo 0 > /proc/sys/net/ipv4/conf/default/log_martians
 echo 1 > /proc/sys/net/ipv4/tcp_timestamps
 echo 1 > /proc/sys/net/ipv6/conf/all/accept_redirects
 echo 1 > /proc/sys/net/ipv6/conf/default/accept_redirects
-echo 0 > /proc/sys/kernel/core_uses_pid
-echo 176 > /proc/sys/kernel/sysrq     
+echo 0 > /proc/sys/kernel/core_uses_pid  
 }
 
 case "$1" in

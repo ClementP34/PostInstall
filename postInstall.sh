@@ -7,7 +7,11 @@ apt-get update -y
 apt-get dist-upgrade -y
 
 #Installation d'utilitaire permettant de surveiller les packets vulnerables
-apt-get install apt-listbugs apt-listchanges debian-goodies debsecan debsums
+apt-get install apt-listbugs -y 
+apt-get install apt-listchanges -y 
+apt-get install debian-goodies -y
+apt-get install debsecan -y
+apt-get install debsums -y
 
 #Installation des packet de base
 apt-get install htop openssh-server -y
